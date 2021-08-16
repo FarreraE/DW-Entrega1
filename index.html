@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-------------------------- CSS LINK -------------------------->
+    <link href="CSS/styles.css" type="text/css" rel="stylesheet" />
+    <!-------------------------- GOOGLE FONT -------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <title>Portafolio ⚡</title>
+</head>
+
+<body>
+    <!------------------------------------ DIV ESTRUCTURA ------------------------------------>
+    <!--( CONTIENE TODA LA ESTRUCTURA DEL SITE DENTRO DEL BODY) -->
+    <div id="estructura">
+
+
+        <!------------------------------------ HEADER ------------------------------------>
+        <!-- HEADER ( CONTIENE EL LOGO Y MENU DE NAVEGACION)-->
+        <header>
+            <img src="images/logo-morado.svg" alt="logo" class="logoHeader">
+            <nav class="navHeader">
+                <ul>
+                    <li class="menuHeader"><a href="index.html#estructura">PrOYeCTOS</a></li>
+                    <li class="menuHeader"><a href="index.html#elyizus">eLYIZUS</a></li>
+                    <li class="menuHeader"><a href="index.html#contacto">CONTACTO</a></li>
+                    <li class="menuHeader"><a href="index.html#extra">Extra</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <!--*********************************  FIN DEL HEADER ********************************-->
+
+
+        <!------------------------------------ PRIMERA SECCIÓN  ------------------------------------>
+        <!--  PROYECTO ( CONTIENE 5 DIV: 2 DECORATIVOS Y 3 A MODO DISPLAY DE IMAGEN )-->
+        <section id="proyectos">
+            <div class="proyectoTop"></div>
+            <div class="proyectoMiddle">
+                <div class="proyectosDisplay"><a href="pages/puzku.html"><img class="displayImage"
+                            src="images/Section/Proyectos/puzku.png" alt=" Proyecto Puzku "></a></div>
+                <div class="proyectosDisplay"><a href="pages/garabato.html"><img class="displayImage"
+                            src="images/Section/Proyectos/grabato.png" alt=" Proyecto Garabato "></a></div>
+                <div class="proyectosDisplay"><a href="pages/amagui.html"><img class="displayImage"
+                            src="images/Section/Proyectos/amagi.svg" alt=" Proyecto Amagi"></a></div>
+            </div>
+            <div class="proyectoFooter"></div>
+        </section>
+        <!--*********************************  FIN DE PRIMERA SECCIÓN ********************************-->
+
+        <!------------------------------------ SEGUNDA SECCIÓN  ------------------------------------>
+        <!-- ELYIZUS ( CONTIENE 3 DIVS:  TOP (titulo) - MIDDLE (box con un <p>) - FOOTER (imagenes herramientas)  )-->
+        <section id="elyizus">
+            <img src="images/Section/Elyizus/CV.svg" alt="CV" class="cvCSS">
+            <div class="sectionHeader">
+                <h2>ELY FARRERA</h2>
+            </div>
+            <div class="elyizusMiddle">
+                <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones
+                    en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias. escondido en el medio del
+                    texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos
+                    trozos trozos trozos trozos.Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero
+                    la mayoría sufrió alteraciones.
+                </p>
+            </div>
+            <div class="elyizusTools">
+                <div class="imgtoolFlechas"><img src="images/Section/Elyizus/toolsFlecha2.svg" alt="Flecha"></div>
+                <div class="imgTool"><img src="images/Section/Elyizus/htmlTools.svg" alt="HTML"></div>
+                <div class="imgTool"><img src="images/Section/Elyizus/cssTools.svg" alt="CSS"></div>
+                <div class="imgTool"><img src="images/Section/Elyizus/jsTools.svg" alt="JavaScript"></div>
+                <div class="imgTool"><img src="images/Section/Elyizus/AiTools.svg" alt="Illustrator"></div>
+                <div class="imgtoolFlechas"><img src="images/Section/Elyizus/toolsFlecha.svg" alt="Flecha"></div>
+            </div>
+            <div class="elyizusFooter">
+                <div class="elyizusMensajeFooter">
+                    <p>El NOMBRE “EL Yizus” nace de la combinación de los nombres del autor de la WEB. <br>
+                        Ely y Jesus [ Elyizus ]. BENDICIONES
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--*********************************  FIN DE SEGUNDA SECCIÓN ********************************-->
+
+
+        <!------------------------------------ TERCERA SECCIÓN  ------------------------------------>
+        <!-- CONTACTO ( CONTIENE 3 DIVS: TOP - FORM - FOOTER DE LA SECCION  )-->
+        <section id="contacto">
+            <div class="sectionHeader">
+                <h2>CONTACTO</h2>
+            </div>
+            <div class="contactoMiddle">
+                <div class="formTop">
+                    <label for="contactoNombre" class="label">Nombre</label>
+                    <input type="text" id="contactoNombre" class="boxText" placeholder="Nombre" required>
+                </div>
+                <div class="formTop">
+                    <label for="contactoApellido" class="label">Apellido</label>
+                    <input type="text" id="contactoApellido" class="boxText" placeholder="Apellido" required>
+                </div>
+                <div class="formTop">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" class="boxText" placeholder="nombreApellido@elyizuus.com" id="email" required>
+                </div>
+                <div class="formBottom">
+                    <label for="mensajeContacto" class="label">Mensaje</label>
+                    <textarea class="textAreaContacto" id="mensajeContacto" placeholder="Dime Algo... :)"></textarea>
+                    <button class="submitButton" type="submit">Enviar</button>
+                </div>
+            </div>
+            <div class="contactoFooter">
+                <div class="contactSocialMedia"> <img src="images/Section/Contacto/gmail-contacto.svg" alt="G Mail">
+                </div>
+                <div class="contactSocialMedia"> <img src="images/Section/Contacto/linkdin-contacto.svg" alt="LinkdIN">
+                </div>
+                <div class="contactSocialMedia"> <img src="images/Section/Contacto/youtube-contacto.svg" alt="Youtube">
+                </div>
+                <div class="contactSocialMedia"> <img src="images/Section/Contacto/ig-contacto.svg" alt="Instagram">
+                </div>
+            </div>
+        </section>
+        <!--*********************************  FIN DE TERCERA SECCIÓN ********************************-->
+
+
+        <!------------------------------------ CUARTA SECCIÓN  ------------------------------------>
+        <!--EXTRA: ( SECCIÓN EN DESARROLLO )-->
+        <section id="extra">
+            <div class="sectionHeader">
+            </div>
+        </section>
+        <!--*********************************  FIN DE CUARTA SECCIÓN ********************************-->
+
+        <!------------------------------------ FOOTER  ------------------------------------>
+        <!--FOOTER: EXTRA ( CONTIENE 4 DIVS PARA ORGANIZAR NAV / HIPERVINCULOS Y LOGO )-->
+        <footer>
+            <div class="proyectoTop"></div>
+            <div class="footerDiv" id="footerDivIzq">
+                <nav class="navFooter">
+                    <ul>
+                        <li class="menuFooter"><a href="index.html#estructura"> PrOYeCTOS </a></li>
+                        <li class="menuFooter"><a href="index.html#elyizus"> eLYIZUS </a></li>
+                        <li class="menuFooter"><a href="index.html#contacto"> CONTACTO </a></li>
+                        <li class="menuFooter"><a href="index.html#extra"> Extra </a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footerDiv" id="footerCentro">
+                <div id="footerCentroArriba"> eLY FaRRERa</div>
+                <div id="footerCentroAbajo">
+                    <div class="footerSocialMedia"> <img src="images/footer/gmail-footer.svg" alt="Gmail"></div>
+                    <div class="footerSocialMedia"> <img src="images/footer/linkdin-footer.svg" alt="Linkdin"> </div>
+                    <div class="footerSocialMedia"> <img src="images/footer/youtube-footer.svg" alt="Youtube"></div>
+                    <div class="footerSocialMedia"> <img src="images/footer/ig-footer.svg" alt="Imstagram"></div>
+
+                </div>
+            </div>
+            <div class="footerDiv" id="footerDerecha">
+                <img src="images/logo-Gris.svg" alt="logo" id="logoFooter">
+            </div>
+        </footer>
+        <!--*********************************  FIN FOOTER ********************************-->
+
+    </div>
+    <!--*********************************  FIN ESTRUCTURA ********************************-->
+</body>
+
+</html>

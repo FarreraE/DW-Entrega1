@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: "PersonalUse";
+    src: url("../Fuentes/Patron\ -\ PersonalUse.otf");
+}
+
+@font-face {
+    font-family: "LemonMilk";
+    src: url("../Fuentes/LEMONMILK-Regular.otf");
+}
+/* HTML */
+html{
+    scroll-behavior: smooth;
+}
+/* H2 */
+
+h2 {
+    font-family: "LemonMilk";
+    font-size: 5em;
+    color: #BC144F
+}
+
+p {
+    font-family: "Inconsolata";
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+/* ---------------------------------------------------- B O D Y ---------------------------------------------------- */
+
+/*rgb(165, 130, 248); MORADO*/
+
+body {
+    width: 100%;
+    background-color: #F7F6F6;
+    position: absolute;
+}
+
+#estructura {
+    width: 1300px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* a */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ---------------------------------------------------- H E A D E R ----------------------------------------------------*/
+
+header {
+    width: inherit;
+    height: 120px;
+    background-color: #F7F6F6;
+    position: sticky;
+    top: 0;
+    font-family: "PersonalUse";
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.navHeader {
+    margin-left: 36%;
+    width: 70%;
+    height: 120px;
+}
+
+.menuHeader {
+    display: inline;
+    color: #490C3D;
+    float: left;
+    text-align: center;
+    width: 23%;
+    padding-top: 5%;
+    font-size: 1em;
+    height: 120px;
+}
+
+.logoHeader {
+    margin-top: 1%;
+    margin-left: 3%;
+    float: left;
+}
+
+.bannerFooter {
+    height: 20px;
+}
+
+/* ---------------------------------------------------- SECTION ----------------------------------------------------*/
+
+section {
+    /*  border: 2px solid black;*/
+    width: inherit;
+    height: 800px;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+.sectionHeader {
+    width: 70%;
+    height: 15%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+/* ----------------------------------------------------S E C T I O N  P R O Y E C T O---------------------------------------------------- */
+
+#proyectos {
+    border-radius: 10px;
+    width: 100%;
+    height: 750px;
+    margin-top: -8%;
+}
+
+.proyectoTop {
+    background-color: #BC144F;
+    height: 20px;
+}
+
+.proyectoMiddle {
+    background-color: #F7F6F6;
+    height: 650px;
+    padding-left: 1%;
+}
+
+.proyectosDisplay {
+    display: inline-block;
+    display: relative;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 600px;
+    margin-top: 2%;
+    border-radius: 5%;
+    box-shadow: #b3b3b3 10px 10px 10px;
+}
+
+.displayImage {
+    border-radius: 5%;
+}
+
+.proyectoFooter {
+    background-color: #490C3D;
+    height: 20px;
+}
+
+/* ---------------------------------------------------- S E C T  I O N E L Y I Z U S ---------------------------------------------------- */
+
+#elyizus {
+    color: #490C3D;
+    box-sizing: border-box;
+}
+
+.elyizusMiddle {
+    width: 70%;
+    height: 30%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    color: black;
+}
+
+.elyizusTools {
+    width: 60%;
+    height: 30%;
+    margin-left: 25%;
+    margin-top: 2%;
+    box-sizing: border-box;
+}
+
+.imgTool {
+    float: left;
+    width: 22%;
+    height: 100%;
+}
+
+.imgtoolFlechas {
+    float: left;
+    width: 6%;
+    height: 100%;
+}
+
+.elyizusFooter {
+    display: block;
+    background-color: #490C3D;
+    width: 95%;
+    height: 10%;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.elyizusMensajeFooter {
+    width: 85%;
+    margin-left: 4%;
+    margin-top: 0.5%;
+    float: left;
+    color: white;
+    font-size: 1.0em;
+}
+
+.cvCSS {
+    margin-top: 200px;
+    margin-left: 60px;
+    float: left;
+}
+
+/* ---------------------------------------------------- S E C T I O N  C O N T  A C T O ---------------------------------------------------- */
+
+#contacto {
+    color: #BC144F;
+}
+
+.contactoMiddle {
+    width: 68%;
+    height: 280px;
+    padding: 1%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    margin-top: 3%;
+    margin-left: 10%;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.formTop {
+    display: inline-block;
+    display: relative;
+    margin-left: 15px;
+}
+
+.label {
+    font-family: "PersonalUse";
+    display: block;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+.boxText {
+    width: 250px;
+    height: 25px;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-right: 5px;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: white;
+}
+
+.formBottom {
+    width: 250px;
+    height: 20px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.textAreaContacto {
+    width: 822px;
+    height: 100px;
+    border: black solid 2px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+.submitButton {
+    background-color: #BC144F;
+    margin-top: 10px;
+    font-family: "PersonalUse";
+    width: 100px;
+    height: 40px;
+    font-size: 1.1em;
+    border: black solid 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+.contactoFooter {
+    box-sizing: border-box;
+    height: 50%;
+    
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.contactSocialMedia {
+    box-sizing: border-box;
+    border: black;
+    width: 15%;
+    height: 25%;
+    float: left;
+    display: inline;
+}
+
+/* ---------------------------------------------------- E X T R A ---------------------------------------------------- */
+
+#extra {
+    border-radius: 5px;
+    background-color: #F5C910;
+}
+/* ---------------------------------------------------- F O O T E R ---------------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 240px;
+    float: left;
+    color: #5A5A5A;
+}
+
+.navFooter {
+    float: left;
+}
+
+.footerDiv {
+    float: left;
+    box-sizing: border-box;
+    color: #5A5A5A;
+}
+
+#footerDivIzq {
+    width: 20%;
+    height: inherit;
+    padding: 1%;
+    font-family: "LemonMilk";
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.menuFooter {
+    display: block;
+    box-sizing: border-box;
+}
+
+#footerCentro {
+    width: 60%;
+    height: inherit;
+}
+
+#footerCentroArriba {
+    height: 20%;
+    text-align: center;
+    font-family: "PersonalUse";
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #5A5A5A;
+    padding-top: 2%;
+}
+
+#footerCentroAbajo {
+    margin-top: 3%;
+    box-sizing: border-box;
+    height: 80%;
+    margin-left: 30%;
+}
+
+.footerSocialMedia {
+    box-sizing: border-box;
+    border: black;
+    width: 15%;
+    height: 45%;
+    float: left;
+    display: inline;
+    color: #5A5A5A;
+}
+
+#footerDerecha {
+    padding-top: 3%;
+    width: 20%;
+    height: inherit;
+}
